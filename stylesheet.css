@@ -48,3 +48,11 @@
   display: block;
   margin:auto;
 }
+
+.footer-logo{
+  float: left;
+}
+
+.footer-list{
+  float: right;
+}
