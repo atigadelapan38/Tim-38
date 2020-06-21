@@ -49,10 +49,50 @@
   margin:auto;
 }
 
-.footer-logo{
-  float: left;
+.footer {
+	text-align: center;
+	color: black;
+	height: 120px;
+	padding: 40px;
 }
 
-.footer-list{
-  float: right;
+.footer-logo {
+	font-size: 32px;
+	margin-top: 30px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.footer-list {
+  max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-list ul{
+  list-style: none;
+      margin: 0;
+
+}
+
+.footer-list ul li{
+  display: inline-block;
+      margin: 6px 0;
+      margin-left: 40px;
+      margin-right : 40px;
+}
+
+span {
+	color: blue;
+}
+
+.footer-copyright p{
+	font-size: 10px;
+	color: white;
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 1280px;
+	height: 30px;
+	background-color: blue;
 }
