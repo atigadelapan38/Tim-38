@@ -1,4 +1,4 @@
-@media (max-width: 1000px) {
+@media all and (max-width: 1000px) {
     .top-wrapper{
         width: 910px;
     }
@@ -49,9 +49,10 @@
     .footer-list {
         padding-left: 80px;
     }
+
 }
 
-@media (max-width: 670px ) {
+@media all and (max-width: 670px ) {
     .about {
         width: 800px;
     }
@@ -72,10 +73,3 @@
     .btn {
         padding-left: 500px;
     }
-    .header-right {
-        display:none;
-    }
-    .menu-icon {
-        display:block;
-    }
-}
